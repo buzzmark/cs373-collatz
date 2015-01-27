@@ -1,0 +1,5 @@
+# ignores files that gcov generates
+__pycache__
+*.pyc
+.coverage
+*.tmp

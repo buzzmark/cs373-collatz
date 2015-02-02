@@ -35,6 +35,9 @@ def collatz_eval (i, j) :
     assert j < 1000000
     if i > j :
        i,j = j,i
+    e = j // 2 + 1
+    if i < e :
+       i = e
     m = 0
     for n in range(i,j+1) :
         m = max(m,cycle_length(n))
@@ -48,9 +51,10 @@ def cycle_length (n) :
     while n > 1 :
         if (n % 2) == 0 :
             n = (n // 2)
+            c += 1
         else :
-            n = (3 * n) + 1
-        c += 1
+            n = n + (n >> 1) + 1
+            c += 2
     assert c > 0
     return c
 

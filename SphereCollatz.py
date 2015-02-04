@@ -9,6 +9,9 @@
 import sys
 
 
+cacheSize = 10000
+cache = [0] * cacheSize
+
 # ------------
 # collatz_read
 # ------------
@@ -50,6 +53,12 @@ def collatz_eval (i, j) :
 
 def cycle_length (n) :
     assert n > 0
+    global cache
+    n0 = n
+    
+    if n < cacheSize and cache[n] != 0 :
+        return cache[n]
+        
     c = 1
     while n > 1 :
         if (n % 2) == 0 :
@@ -59,8 +68,9 @@ def cycle_length (n) :
             n = n + (n >> 1) + 1
             c += 2
     assert c > 0
+    if n0 < cacheSize :
+        cache[n0] = c
     return c
-
 
 
 # -------------
@@ -90,6 +100,8 @@ def collatz_solve (r, w) :
         i, j = collatz_read(s)
         v    = collatz_eval(i, j)
         collatz_print(w, i, j, v)
+
+
 
 # ----
 # main

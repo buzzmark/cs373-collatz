@@ -9,7 +9,7 @@
 import sys
 
 
-cacheSize = 10000
+cacheSize = 100000
 cache = [0] * cacheSize
 
 # ------------
@@ -55,23 +55,23 @@ def cycle_length (n) :
     assert n > 0
     global cache
     n0 = n
-    
-    if n < cacheSize and cache[n] != 0 :
-        return cache[n]
         
     c = 1
     while n > 1 :
+        if n < cacheSize and cache[n] != 0 :
+            c += cache[n]-1
+            break
         if (n % 2) == 0 :
             n = (n // 2)
             c += 1
         else :
             n = n + (n >> 1) + 1
             c += 2
-    assert c > 0
+    
     if n0 < cacheSize :
         cache[n0] = c
+    assert c > 0
     return c
-
 
 # -------------
 # collatz_print

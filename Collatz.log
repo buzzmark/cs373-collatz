@@ -1,0 +1,83 @@
+commit cc3c790e9c6d3606cf05414eee093a582947398d
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Thu Feb 5 16:16:22 2015 -0600
+
+    Add documentation
+
+commit d744aa499ff7882d566a0909512aa6f3f681f662
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Thu Feb 5 15:10:11 2015 -0600
+
+    The cache is now used much more extensively. Fixes #21
+
+commit 514c0c9e8901d9a5e633352014c58aeba3892ae7
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Wed Feb 4 12:52:36 2015 -0600
+
+    Get cached version accepted by Shere. Closes #20
+
+commit 60216319af1f4b1dcb25378d7d0bff1a190a133d
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Wed Feb 4 12:44:14 2015 -0600
+
+    Add simple cache. Closes #7
+
+commit 4ae5e9e3a8bae1b6be218da20d90ccc3e808cc1c
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Mon Feb 2 17:31:16 2015 -0600
+
+    Added changes to SphereColltz.py and got accepted by Sphere. Closes #19
+
+commit 5d2e0f5c42553609f5ccab23679d386b88401f9e
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Mon Feb 2 17:28:42 2015 -0600
+
+    Add (3n+1)/2 and less-than-half optimizations
+
+commit 34961b9dce0dad3d1e657490250d7aa33309d7ea
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Mon Feb 2 16:57:02 2015 -0600
+
+    Add output of acceptance tests. Closes #16
+
+commit 239de1eeeed93baab62a2b84937c603e08161922
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Mon Feb 2 16:49:12 2015 -0600
+
+    Added acceptance tests. Closes #14
+
+commit 82ee3c225572c5c3a505c8b49091bc398eb5be8d
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Mon Feb 2 16:23:11 2015 -0600
+
+    Create SphereCollatz.py, which was accpeted by Sphere. Closes #4
+
+commit 61020108e76f7b4323db1aab0c2e8d282044670d
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Mon Feb 2 16:05:14 2015 -0600
+
+    Added the simplest solution to the problem. Fixes #12 and closes #3
+
+commit 8d65fc5e99dd1640cd1e87fe80a48cb5d33bf537
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Mon Feb 2 16:03:09 2015 -0600
+
+    Create more unit tests. Fixes #13
+
+commit c698b5d788b8776584a64812dfaa014cfabaf203
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Mon Feb 2 15:27:00 2015 -0600
+
+    Fix the given acceptence tests. Closes #11
+
+commit a5435013c0d8150b123d8b5ce6be40849aba1977
+Author: matthew2 <matthew2@cs.utexas.edu>
+Date:   Tue Jan 27 16:49:31 2015 -0600
+
+    Add base files
+
+commit 18477442a49400b7f1303461216cc43d8fe868c5
+Author: Matthew Stromberg <mcmcmatthew@gmail.com>
+Date:   Tue Jan 27 15:57:09 2015 -0600
+
+    Initial commit

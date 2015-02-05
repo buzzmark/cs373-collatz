@@ -49,6 +49,11 @@ def collatz_eval (i, j) :
 
 
 def cycle_length (n) :
+    """
+    helper function for collatz_eval
+    n an int
+    return the cycle length of n
+    """
     assert n > 0
     global cache
     n0 = n

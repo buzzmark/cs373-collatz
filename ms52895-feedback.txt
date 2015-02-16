@@ -1,0 +1,24 @@
+ms52895
+5/5 github setup and commit log
+5/5 github issues
+15/15 sphere and cache
+15/15 average of 3 unit test per function
+14/15 100 lines of acceptance test
+10/10 Pydoc
+5/5 Google Form with time estimate.
+4/0 bonus and panalty points
+70/70 total
+comment:
+100 lines only.
+Bonus:
+    ag42778 Failed
+    ah26482 Passed
+    anw972 Passed
+    as53547 Passed
+    att366 Failed
+Penalty:
+    ms52895 Passed
+    ng6978 Passed
+    nrc523 Passed
+    ojl85 Passed
+    om3799 Passed
